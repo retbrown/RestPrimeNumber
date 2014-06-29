@@ -8,21 +8,21 @@ import java.util.List;
 @XmlRootElement(name = "Primes")
 public class PrimeNumber {
     @XmlElement
-    private String initial;
+    private Integer initial;
     @XmlElement
     private List<Integer> primes;
 
     public PrimeNumber() {
-        this.initial = "0";
+        this.initial = 0;
         this.primes = new ArrayList<Integer>();
     }
 
-    public PrimeNumber(String initial, List<Integer> primes) {
+    public PrimeNumber(Integer initial, List<Integer> primes) {
         this.initial = initial;
         this.primes = primes;
     }
 
-    public String getInitial() {
+    public Integer getInitial() {
         return initial;
     }
 
