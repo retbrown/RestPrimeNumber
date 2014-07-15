@@ -1,4 +1,4 @@
-package retbrown.rbs.resttechtest.controllers;
+package retbrown.restprimenum.controllers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,10 +7,10 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
-import retbrown.rbs.resttechtest.domain.PrimeNumber;
+import retbrown.restprimenum.domain.PrimeNumber;
 import org.springframework.http.HttpStatus;
-import retbrown.rbs.resttechtest.exceptions.InvalidNumberException;
-import retbrown.rbs.resttechtest.exceptions.PrimeNumberException;
+import retbrown.restprimenum.exceptions.InvalidNumberException;
+import retbrown.restprimenum.exceptions.PrimeNumberException;
 
 @RestController
 public class PrimeNumberController {

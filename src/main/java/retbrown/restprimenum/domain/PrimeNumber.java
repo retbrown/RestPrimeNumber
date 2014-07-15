@@ -1,4 +1,4 @@
-package retbrown.rbs.resttechtest.domain;
+package retbrown.restprimenum.domain;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

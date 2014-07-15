@@ -1,4 +1,4 @@
-package retbrown.rbs.resttechtest;
+package retbrown.restprimenum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

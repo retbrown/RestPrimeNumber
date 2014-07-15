@@ -1,4 +1,4 @@
-package retbrown.rbs.resttechtest.controllers;
+package retbrown.restprimenum.controllers;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
@@ -6,9 +6,9 @@ import static org.junit.Assert.*;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import retbrown.rbs.resttechtest.domain.PrimeNumber;
-import retbrown.rbs.resttechtest.exceptions.InvalidNumberException;
-import retbrown.rbs.resttechtest.exceptions.PrimeNumberException;
+import retbrown.restprimenum.domain.PrimeNumber;
+import retbrown.restprimenum.exceptions.InvalidNumberException;
+import retbrown.restprimenum.exceptions.PrimeNumberException;
 
 import java.util.Arrays;
 

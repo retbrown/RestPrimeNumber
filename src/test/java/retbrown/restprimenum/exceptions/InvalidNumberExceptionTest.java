@@ -1,4 +1,4 @@
-package retbrown.rbs.resttechtest.exceptions;
+package retbrown.restprimenum.exceptions;
 
 import org.junit.Test;
 

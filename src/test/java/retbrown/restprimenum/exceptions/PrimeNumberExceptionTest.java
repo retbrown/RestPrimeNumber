@@ -1,7 +1,6 @@
-package retbrown.rbs.resttechtest.exceptions;
+package retbrown.restprimenum.exceptions;
 
 import org.junit.Test;
-import retbrown.rbs.resttechtest.domain.PrimeNumber;
 
 import static org.junit.Assert.*;
 

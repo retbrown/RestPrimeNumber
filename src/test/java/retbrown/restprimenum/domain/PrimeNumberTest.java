@@ -1,4 +1,4 @@
-package retbrown.rbs.resttechtest.domain;
+package retbrown.restprimenum.domain;
 
 import org.junit.Test;
 
